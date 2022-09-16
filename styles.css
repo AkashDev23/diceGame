@@ -1,0 +1,51 @@
+h1 {
+  /* padding-top: -20px; */
+  font-family: 'Oswald', sans-serif;
+  font-size: 8rem;
+  text-align: center;
+  color: #8758FF;
+}
+
+body {
+  background-color: #181818;
+  display: block;
+}
+
+p {
+  font-size: 2rem;
+}
+h4{
+  color: #F2F2F2;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+h3{
+  color: #5CB8E4;
+  font-size:25px;
+}
+.rules{
+  color: #F2F2F2;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.Players {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  display: inline-block;
+  color: #5CB8E4;
+}
+
+.container {
+  text-align: center;
+  display: block;
+}
+
+footer {
+  color: #F2F2F2;
+  margin-top: 5%;
+  text-align: center;
+}
