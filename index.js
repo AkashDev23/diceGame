@@ -1,11 +1,13 @@
+// first we will take a random number and take the floor value of it since we want the whole number not the decimal
+// we will multiply so we get the first six number then add 1 because the numbers will be 0-5
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; //1-6
-
+//the dice png will also be chosen randomly from 1-6
 var randomDiceImage = "dice" + randomNumber1 + ".png"; //dice1.png - dice6.png
 
 var randomImageSource = "images/" + randomDiceImage; //images/dice1.png - images/dice6.png
-
+//we want that it select randomly from all the images so we will use document.querySelectorAll
 var image1 = document.querySelectorAll("img")[0];
-
+//the name of this is image1 since it is for player 1 the random dice image will be on the player one side
 image1.setAttribute("src", randomImageSource);
 
 
